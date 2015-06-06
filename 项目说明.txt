@@ -1,0 +1,3 @@
+OA整合了Spring和Struts2
+OA2整合了Spring和hibernate和Struts2,将Spring配置文件进行了分类
+OA3对多个层次的代码进行了梳理,改为了面向接口编程。

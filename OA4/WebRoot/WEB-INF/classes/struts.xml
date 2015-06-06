@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.devMode" value="true" />
+    <constant name="struts.i18n.encoding" value="gbk"></constant>  <!-- 汉字 -->
+   		<package name="admin" namespace="/admin" extends="struts-default">
+			
+	        <action name="main" class="studentAction" method="save">
+	            <result name="success">
+	                /WEB-INF/content/yes.jsp
+	            </result>
+	        </action>
+	     
+	   	    <action name="studenthaha" >
+	            <result >
+	                /WEB-INF/content/studenthaha.jsp
+	            </result>
+	        </action>
+	      
+
+   		</package>
+</struts>    

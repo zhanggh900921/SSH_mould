@@ -1,0 +1,26 @@
+#Mon May 04 13:56:41 CST 2015
+tomcat6Server.OA3.altContextRoot=
+tomcat6Server.OA3.isDeployed=true
+tomcat6Server.OA3.deployIsOverProject=false
+tomcat6Server.OA4.deployIsOverProject=false
+tomcat6Server.OA3.isUptoDate=true
+tomcat6Server.OA3.shouldBackup=false
+tomcat6Server.OA4.isDeployed=true
+tomcat6Server.OA3.isExploded=true
+eclipse.preferences.version=1
+tomcat6Server.OA4.isUptoDate=true
+tomcat6Server.OA4.altContextRoot=
+tomcat6Server.OA3.noFileCopy=false
+tomcat6Server.OA4.shouldOverwrite=false
+tomcat6Server.OA3.type=WebDeployment
+tomcat6Server.OA4.isExploded=true
+tomcat6Server.OA3.contextRoot=/OA
+tomcat6Server.OA4.noFileCopy=false
+tomcat6Server.OA4.type=WebDeployment
+tomcat6Server.OA3.deploymentPath=D\:\\tomcat6.0.43\\webapps\\OA
+tomcat6Server.OA4.contextRoot=/OA
+tomcat6Server.OA4.shouldBackup=false
+tomcat6Server.OA3.shouldOverwrite=false
+tomcat6Server.OA3.IEARProjectName=
+tomcat6Server.OA4.deploymentPath=D\:\\tomcat6.0.43\\webapps\\OA
+tomcat6Server.OA4.IEARProjectName=

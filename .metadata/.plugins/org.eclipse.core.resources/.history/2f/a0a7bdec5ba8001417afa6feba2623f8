@@ -1,0 +1,24 @@
+package service;
+
+
+import java.sql.SQLException;
+
+import dao.impl.StudentDaoImpl;
+
+import model.Student;
+
+public class StudentService {
+	private StudentDaoImpl studentDao;
+	
+	public StudentDaoImpl getStudentDao() {
+		return studentDao;
+	}
+
+	public void setStudentDao(StudentDaoImpl studentDao) {
+		this.studentDao = studentDao;
+	}
+
+	public void saveUser(Student student) {  
+		studentDao.save(student);
+    }  
+}

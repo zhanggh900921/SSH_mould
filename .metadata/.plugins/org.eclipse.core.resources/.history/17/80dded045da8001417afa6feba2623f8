@@ -1,0 +1,23 @@
+package service;
+
+
+
+import dao.impl.StudentDaoImpl;
+
+import model.Student;
+
+public class StudentService {
+	private StudentDaoImpl studentDaoImpl;
+	
+	public StudentDaoImpl getStudentDao() {
+		return studentDaoImpl;
+	}
+
+	public void setStudentDao(StudentDaoImpl studentDao) {
+		this.studentDaoImpl = studentDao;
+	}
+
+	public void saveUser(Student student) {  
+		studentDaoImpl.save(student);
+    }  
+}

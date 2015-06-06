@@ -1,0 +1,12 @@
+package dao.impl;
+
+import java.sql.SQLException;
+
+import model.Student;
+
+import org.hibernate.SessionFactory;
+import org.springframework.orm.hibernate3.HibernateTemplate;
+
+public class StudentDaoImpl extends BaseDaoImpl<Student>{
+	
+}
